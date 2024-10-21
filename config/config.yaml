@@ -1,0 +1,18 @@
+server:
+  port: 8080
+  allowOrigins:
+    - "*"
+  bodyLimit: "10M" # MiB
+  timeout: 30 # Seconds
+
+mariadb:
+  user: root
+  password: 123456
+  host: localhost
+  port: 3306
+  dbname: mariadbtest
+  charset: utf8mb4
+  parseTime: true
+  loc: Local
+
+
